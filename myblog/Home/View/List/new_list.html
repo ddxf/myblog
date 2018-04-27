@@ -1,0 +1,95 @@
+<extend name="Public:base" />
+
+</extend>
+<block name="main">
+<main id="main">
+  <div class="container">
+    
+    <div class="row topspace">
+      <div class="col-sm-8 col-sm-offset-2">
+                              
+        <article class="post">
+          <header class="entry-header">
+            <div class="entry-meta"> 
+              <span class="posted-on"><time class="entry-date published" date="">{$dlist['title']|date="Y-m-d",###}</time></span>      
+            </div> 
+            <h1 class="entry-title"><a href="#" rel="bookmark">{$dlist['title']}</a></h1>
+          </header> 
+          <div class="entry-content"> 
+            <p>{$dlist['content']|htmlspecialchars_decode}</p>
+        </article><!-- #post-## -->
+
+      </div> 
+    </div> <!-- /row post  -->
+
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+
+        <div id="comments"> 
+          <h3 class="comments-title">{$count['id']}条评论</h3>
+          <a href="#comment-form" class="leave-comment">Leave a Comment</a>
+          <ol class="comments-list">
+            <foreach name="list" item="vo"> 
+            <li class="comment">
+              <div>
+                <img src="__PUBLIC__/home/images/avatar_woman.png" alt="Avatar" class="avatar">
+                
+                <div class="comment-meta">
+                  <span class="author"><a href="#">{$vo['name']}</a></span>
+                  <span class="date"><a href="#">{$vo['datetime']|date="Y-m-d",###}</a></span>
+                  <span class="reply"><a href="#">回复暂时没实现</a></span>
+                </div>
+                <div class="comment-body">{$vo['comment']}
+                                        </div><!-- .comment-body -->
+              </div>
+            </li>
+          </foreach>
+          </ol>
+          
+          <div class="clearfix"></div>
+
+          <nav id="comment-nav-below" class="comment-navigation clearfix" role="navigation"><div class="nav-content">
+              <div class="nav-previous"><a href="/index">回到首页</a></div>
+              <div class="nav-next"><a href="#">回到顶部</a>&rarr;</div>
+          </div></nav><!-- #comment-nav-below -->
+
+
+          <div id="respond">
+            <h3 id="reply-title">请留下评论吧！</h3>
+            <form action="/comintinfo/{$dlist['id']}" method="post" id="commentform" class="">
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Enter your name" name="name">
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Email address <i class="text-danger">*</i></label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="inputWeb">Website</label>
+                <input type="nane" class="form-control" id="inputWeb" placeholder="http://" naem="http">
+              </div>
+              <div class="form-group">
+                <label for="inputComment" >Comment</label>
+                <textarea class="form-control" rows="6" name="comment"></textarea>
+              </div>
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="checkbox">
+                    <label> <input type="checkbox"> Subscribe to updates</label>
+                  </div>
+                </div>
+                <div class="col-md-4 text-right">
+                    <button type="submit" class="btn btn-action">Submit</button>
+                </div>
+            </form>
+          </div> <!-- /respond -->
+        </div>
+      </div>
+    </div> <!-- /row comments -->
+    <div class="clearfix"></div>
+
+  </div>  <!-- /container -->
+
+</main>
+</block>

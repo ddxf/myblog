@@ -1,0 +1,120 @@
+[ 2018-04-12T09:31:45+08:00 ] 127.0.0.1 /jstt/bj/
+ERR: 无法加载控制器:Jstt
+
+[ 2018-04-12T09:34:33+08:00 ] 127.0.0.1 /jstt/bj/2017-07-13/784.html
+ERR: 无法加载控制器:Jstt
+
+[ 2018-04-12T10:45:41+08:00 ] 127.0.0.1 /assets/css/styles.css
+ERR: 无法加载控制器:Assets
+
+[ 2018-04-12T10:45:41+08:00 ] 127.0.0.1 /assets/js/template.js
+ERR: 无法加载控制器:Assets
+
+[ 2018-04-12T10:45:41+08:00 ] 127.0.0.1 /assets/js/jquery.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2018-04-12T10:45:42+08:00 ] 127.0.0.1 /assets/css/styles.css
+ERR: 无法加载控制器:Assets
+
+[ 2018-04-12T10:45:42+08:00 ] 127.0.0.1 /assets/js/jquery.min.js
+ERR: 无法加载控制器:Assets
+
+[ 2018-04-12T10:45:42+08:00 ] 127.0.0.1 /assets/js/template.js
+ERR: 无法加载控制器:Assets
+
+[ 2018-04-12T10:45:42+08:00 ] 127.0.0.1 /assets/js/template.js
+ERR: 无法加载控制器:Assets
+
+[ 2018-04-12T11:22:30+08:00 ] 127.0.0.1 /Home/new_list/assets/images/guy.jpg
+ERR: 1054:Unknown column 'assets' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=assets ) LIMIT 1  
+
+[ 2018-04-12T11:22:30+08:00 ] 127.0.0.1 /Home/new_list/assets/images/avatar_woman.png
+ERR: 1054:Unknown column 'assets' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=assets ) LIMIT 1  
+
+[ 2018-04-12T11:23:07+08:00 ] 127.0.0.1 /Home/new_list/assets/images/guy.jpg
+ERR: 1054:Unknown column 'assets' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=assets ) LIMIT 1  
+
+[ 2018-04-12T11:23:07+08:00 ] 127.0.0.1 /Home/new_list/assets/images/avatar_woman.png
+ERR: 1054:Unknown column 'assets' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=assets ) LIMIT 1  
+
+[ 2018-04-12T11:48:41+08:00 ] 127.0.0.1 /Home/new_list/blog.html
+ERR: 1054:Unknown column 'blog' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=blog ) LIMIT 1  
+
+[ 2018-04-12T13:13:09+08:00 ] 127.0.0.1 /Home/new_list/about.html
+ERR: 1054:Unknown column 'about' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=about ) LIMIT 1  
+
+[ 2018-04-12T13:55:35+08:00 ] 127.0.0.1 /commintinfo
+ERR: 无法加载控制器:Commintinfo
+
+[ 2018-04-12T15:02:15+08:00 ] 127.0.0.1 /comintinfo/16
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T15:02:47+08:00 ] 127.0.0.1 /comintinfo/16
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T15:04:55+08:00 ] 127.0.0.1 /comintinfo/16
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T15:06:14+08:00 ] 127.0.0.1 /comintinfo/16
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T15:19:23+08:00 ] 127.0.0.1 /comintinfo/16
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T15:19:52+08:00 ] 127.0.0.1 /comintinfo/16
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T15:20:43+08:00 ] 127.0.0.1 /comintinfo/16
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T15:20:58+08:00 ] 127.0.0.1 /comintinfo/16
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T15:22:52+08:00 ] 127.0.0.1 /comintinfo/13
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T16:29:49+08:00 ] 127.0.0.1 /Home/new_list/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=index ) LIMIT 1  
+
+[ 2018-04-12T19:12:55+08:00 ] 127.0.0.1 /comintinfo/14
+ERR: Think\Model:getId方法不存在！
+
+[ 2018-04-12T19:14:35+08:00 ] 127.0.0.1 /comintinfo/14
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_talk` (`pid`,`datetime`) VALUES ('14','1523531675')
+
+[ 2018-04-12T19:21:50+08:00 ] 127.0.0.1 /comintinfo/14
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_talk` (`pid`,`datetime`) VALUES ('14','1523532110')
+
+[ 2018-04-12T19:23:52+08:00 ] 127.0.0.1 /comintinfo/14
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_talk` (`pid`,`datetime`) VALUES ('14','1523532232')
+
+[ 2018-04-12T19:23:57+08:00 ] 127.0.0.1 /comintinfo/14
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_talk` (`pid`,`datetime`) VALUES ('14','1523532237')
+
+[ 2018-04-12T19:32:16+08:00 ] 127.0.0.1 /comintinfo/14
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_talk` (`pid`,`datetime`) VALUES ('14','1523532736')
+
+[ 2018-04-12T19:34:42+08:00 ] 127.0.0.1 /comintinfo/14
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_talk` (`pid`,`datetime`) VALUES ('14','1523532882')
+
+[ 2018-04-12T19:36:31+08:00 ] 127.0.0.1 /comintinfo/14
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_talk` (`pid`,`datetime`) VALUES ('14','1523532991')
+
+[ 2018-04-12T19:39:10+08:00 ] 127.0.0.1 /comintinfo/14
+ERR: 1364:Field 'email' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_talk` (`pid`,`datetime`) VALUES ('14','1523533150')
+

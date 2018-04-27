@@ -1,0 +1,64 @@
+<extend name="Public:base" />
+</extend>
+<block name='css'>
+        <link rel="stylesheet" href="__PUBLIC__/kindeditor/themes/default/default.css" />
+        <link rel="stylesheet" href="__PUBLIC__/kindeditor/plugins/code/prettify.css" />
+</block>
+<block name='main'>
+<div class="admin">
+  <div class="tab">
+    <div class="tab-head"> <strong>文章管理</strong>
+      <ul class="tab-nav">
+        <li class="active"><a href="#tab-set">添加回复</a></li>
+      </ul>
+    </div>
+    <div class="tab-body"> <br />
+      <div class="tab-panel active" id="tab-set">
+        <form method="POST" class="form-x" action="/Admin/recoverinsert" enctype="multipart/form-data"> 
+        <input type="hidden" name="id" value="{$list['id']}"> 
+          <div class="form-group">
+            <div class="label">
+              <label for="readme">回复内容</label>
+            </div>
+            <div class="field">
+              <textarea name="recover" style="width:700px;height:200px;visibility:hidden;">
+                
+              </textarea>
+            </div>
+          </div>
+          <div class="form-button">
+            <button name="submit" class="button bg-main" type="submit">提交</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div style='height:40px; border-bottom:1px #DDD solid'></div>
+  <p class="text-right text-gray" style="float:right">基于<a class="text-gray" target="_blank" href="#">MVC框架</a>构建</p>
+</div>
+  <script charset="utf-8" src="__PUBLIC__/kindeditor/kindeditor-all.js"></script>
+  <script charset="utf-8" src="__PUBLIC__/kindeditor/lang/zh-CN.js"></script>
+  <script charset="utf-8" src="__PUBLIC__/kindeditor/plugins/code/prettify.js"></script>
+  <script>
+    KindEditor.ready(function(K) {
+      var editor1 = K.create('textarea[name="recover"]', {
+        cssPath : '__PUBLIC__/kindeditor/plugins/code/prettify.css',
+        uploadJson : '/Admin/addeditorimg',
+        fileManagerJson : '__PUBLIC__/kindeditor/php/file_manager_json.php',
+        allowFileManager : true,
+        afterCreate : function() {
+          var self = this;
+          K.ctrl(document, 13, function() {
+            self.sync();
+            K('form[name=example]')[0].submit();
+          });
+          K.ctrl(self.edit.doc, 13, function() {
+            self.sync();
+            K('form[name=example]')[0].submit();
+          });
+        }
+      });
+      prettyPrint();
+    });
+  </script>
+</block>

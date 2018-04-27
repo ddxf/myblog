@@ -1,0 +1,32 @@
+<extend name="Public:base" />
+</extend>
+<block name="main">
+<main id="main">
+	<div class="container">
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+				<foreach name="list" item="val">									
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta"> 
+							<span class="posted-on"><time class="entry-date published" date="2013-09-27"></time>{$val['created_at']|date="Y-m-d",###}</span>			
+						</div>
+						<h1 class="entry-title"><a href="/new_list/{$val['id']}" rel="bookmark">{$val['title']}</a></h1>
+					</header>
+					<div class="entry-content">
+						<p>{$val['desc']}</p>
+					</div>
+				</article>
+			</foreach>
+			</div> 
+		</div>
+
+		<center class="pu_page mtm">
+				{$page}
+		</center>
+	
+
+	</div>	<!-- /container -->
+
+</main>
+</block>

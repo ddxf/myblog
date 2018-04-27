@@ -1,0 +1,221 @@
+[ 2018-04-16T09:45:04+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id= ) 
+
+[ 2018-04-16T10:02:49+08:00 ] 127.0.0.1 /class/3
+ERR: 1054:Unknown column 'is_delete' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE `typeid` = 3 AND (  is_delete=0 ) LIMIT 1  
+
+[ 2018-04-16T10:33:13+08:00 ] 127.0.0.1 /class/new_list/6
+ERR: 1054:Unknown column 'new_list' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid=new_list ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T10:36:10+08:00 ] 127.0.0.1 /class/new_list/6
+ERR: 1054:Unknown column 'new_list' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid=new_list ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T10:36:10+08:00 ] 127.0.0.1 /class/new_list/6
+ERR: 1054:Unknown column 'new_list' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid=new_list ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T10:36:10+08:00 ] 127.0.0.1 /class/new_list/6
+ERR: 1054:Unknown column 'new_list' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid=new_list ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:12:25+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:12:39+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:20:12+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:20:12+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:20:13+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:20:13+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:20:16+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:21:07+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:21:07+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T11:21:11+08:00 ] 127.0.0.1 /class/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T15:17:49+08:00 ] 127.0.0.1 /dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-16T15:36:03+08:00 ] 127.0.0.1 /dealLogin
+ERR: 1146:Table 'myblog.blog_classser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog_classser`
+
+[ 2018-04-16T15:37:04+08:00 ] 127.0.0.1 /dealLogin
+ERR: Think\Model:getUserInfo方法不存在！
+
+[ 2018-04-16T15:54:45+08:00 ] 127.0.0.1 /clsslist
+ERR: 无法加载控制器:Clsslist
+
+[ 2018-04-16T15:56:21+08:00 ] 127.0.0.1 /clsslist
+ERR: 无法加载控制器:Clsslist
+
+[ 2018-04-16T15:56:36+08:00 ] 127.0.0.1 /clsslist
+ERR: 无法加载控制器:Clsslist
+
+[ 2018-04-16T15:56:48+08:00 ] 127.0.0.1 /classlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY created_at desc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( typeid= ) ORDER BY created_at desc LIMIT 0,4  
+
+[ 2018-04-16T16:12:44+08:00 ] 127.0.0.1 /seach
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( title=Array ) 
+
+[ 2018-04-16T16:15:53+08:00 ] 127.0.0.1 /seach
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE `typeid` = 0 AND (  ) LIMIT 1  
+
+[ 2018-04-16T16:16:03+08:00 ] 127.0.0.1 /seach
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE `typeid` = 0 AND (  ) LIMIT 1  
+
+[ 2018-04-16T16:38:05+08:00 ] 127.0.0.1 /about.html
+ERR: 无法加载控制器:About
+
+[ 2018-04-16T18:16:59+08:00 ] 127.0.0.1 /css/new_enter.css
+ERR: 无法加载控制器:Css
+
+[ 2018-04-16T19:24:13+08:00 ] 127.0.0.1 /photo
+ERR: 无法加载控制器:Photo
+
+[ 2018-04-16T19:24:58+08:00 ] 127.0.0.1 /photo
+ERR: 无法加载控制器:Photo
+
+[ 2018-04-16T19:24:59+08:00 ] 127.0.0.1 /photo
+ERR: 无法加载控制器:Photo
+
+[ 2018-04-16T19:24:59+08:00 ] 127.0.0.1 /photo
+ERR: 无法加载控制器:Photo
+
+[ 2018-04-16T19:25:01+08:00 ] 127.0.0.1 /photo
+ERR: 无法加载控制器:Photo
+
+[ 2018-04-16T19:25:01+08:00 ] 127.0.0.1 /photo
+ERR: 无法加载控制器:Photo
+
+[ 2018-04-16T19:25:08+08:00 ] 127.0.0.1 /photo
+ERR: 无法加载控制器:Photo
+
+[ 2018-04-16T19:27:33+08:00 ] 127.0.0.1 /photo
+ERR: 模板不存在:./myblog/Home/View/Photo/index.html
+
+[ 2018-04-16T19:30:11+08:00 ] 127.0.0.1 /photo
+ERR: 不存在的图像文件
+
+[ 2018-04-16T19:32:58+08:00 ] 127.0.0.1 /photo
+ERR: 不存在的图像文件
+
+[ 2018-04-16T19:32:59+08:00 ] 127.0.0.1 /photo
+ERR: 不存在的图像文件
+
+[ 2018-04-16T19:33:00+08:00 ] 127.0.0.1 /photo
+ERR: 不存在的图像文件
+
+[ 2018-04-16T19:33:00+08:00 ] 127.0.0.1 /photo
+ERR: 不存在的图像文件
+
+[ 2018-04-16T19:33:01+08:00 ] 127.0.0.1 /photo
+ERR: 不存在的图像文件
+
+[ 2018-04-16T19:49:10+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T19:51:29+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T19:51:30+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T19:51:57+08:00 ] 127.0.0.1 /insertangle
+ERR: Think\Model:update方法不存在！
+
+[ 2018-04-16T19:53:11+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T19:55:32+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T19:55:33+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T19:55:33+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:04:03+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:04:04+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:04:04+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:04:05+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:04:05+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:09:52+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:12:20+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:12:20+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:12:21+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:12:29+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:12:29+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:13:05+08:00 ] 127.0.0.1 /photo
+ERR: 非法操作:index
+
+[ 2018-04-16T20:32:12+08:00 ] 127.0.0.1 /insertangle
+ERR: 1054:Unknown column 'admina' in 'where clause'
+ [ SQL语句 ] : UPDATE `blog_user` SET `username`='admin',`person`='ddssadsdfsa',`avatar`='./Public/home/images/2018-04-16/5ad497ccb9ebc.png',`created_at`='1523881932' WHERE ( username=admina )
+
+[ 2018-04-16T20:34:33+08:00 ] 127.0.0.1 /insertangle
+ERR: 1054:Unknown column 'admina' in 'where clause'
+ [ SQL语句 ] : UPDATE `blog_user` SET `username`='admin',`person`='ddssadsdfsa',`avatar`='./Public/home/images/2018-04-16/5ad498591521e.png' WHERE ( username=admina )
+
+[ 2018-04-16T20:52:15+08:00 ] 127.0.0.1 /about.html
+ERR: 无法加载控制器:About
+
+[ 2018-04-16T21:05:09+08:00 ] 127.0.0.1 /outline
+ERR: 非法操作:out
+

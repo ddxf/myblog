@@ -1,0 +1,160 @@
+[ 2018-04-11T14:06:36+08:00 ] 127.0.0.1 /Home/
+ERR: 模板不存在:./myblog/Home/View/Index/index.html
+
+[ 2018-04-11T14:07:15+08:00 ] 127.0.0.1 /Home/css/index.css
+ERR: 无法加载控制器:Css
+
+[ 2018-04-11T14:07:15+08:00 ] 127.0.0.1 /Home/css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2018-04-11T14:07:15+08:00 ] 127.0.0.1 /Home/js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2018-04-11T14:25:25+08:00 ] 127.0.0.1 /jstt/bj/2015-01-09/740.html
+ERR: 无法加载控制器:Jstt
+
+[ 2018-04-11T14:29:19+08:00 ] 127.0.0.1 /jstt/bj/2017-07-13/784.html
+ERR: 无法加载控制器:Jstt
+
+[ 2018-04-11T14:30:21+08:00 ] 127.0.0.1 /jstt/bj/2017-07-13/784.html
+ERR: 无法加载控制器:Jstt
+
+[ 2018-04-11T15:11:57+08:00 ] 127.0.0.1 /
+ERR: Think\Model:getinfo方法不存在！
+
+[ 2018-04-11T15:12:16+08:00 ] 127.0.0.1 /
+ERR: Think\Model:getinfo方法不存在！
+
+[ 2018-04-11T15:12:16+08:00 ] 127.0.0.1 /
+ERR: Think\Model:getinfo方法不存在！
+
+[ 2018-04-11T15:12:17+08:00 ] 127.0.0.1 /
+ERR: Think\Model:getinfo方法不存在！
+
+[ 2018-04-11T15:12:17+08:00 ] 127.0.0.1 /
+ERR: Think\Model:getinfo方法不存在！
+
+[ 2018-04-11T15:12:30+08:00 ] 127.0.0.1 /
+ERR: Think\Model:getinfo方法不存在！
+
+[ 2018-04-11T15:29:44+08:00 ] 127.0.0.1 /jstt/bj/2015-01-09/740.html
+ERR: 无法加载控制器:Jstt
+
+[ 2018-04-11T16:06:02+08:00 ] 127.0.0.1 /newslistpic.html
+ERR: 无法加载控制器:Newslistpic
+
+[ 2018-04-11T16:43:35+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:08+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:09+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:09+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:09+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:10+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:10+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:10+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:28+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:28+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:29+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:30+08:00 ] 127.0.0.1 /Home/index.html
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T16:44:40+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="val"
+      <div class="tuwen"
+
+[ 2018-04-11T18:21:25+08:00 ] 127.0.0.1 /Home/new_list
+ERR: 无法加载控制器:New_list
+
+[ 2018-04-11T20:01:48+08:00 ] 127.0.0.1 /Home/new_list/images/01.jpg
+ERR: 1054:Unknown column 'images' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=images ) LIMIT 1  
+
+[ 2018-04-11T20:01:48+08:00 ] 127.0.0.1 /Home/new_list/images/01.jpg
+ERR: 1054:Unknown column 'images' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=images ) LIMIT 1  
+
+[ 2018-04-11T20:01:49+08:00 ] 127.0.0.1 /Home/new_list/images/01.jpg
+ERR: 1054:Unknown column 'images' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=images ) LIMIT 1  
+
+[ 2018-04-11T20:01:50+08:00 ] 127.0.0.1 /Home/new_list/images/01.jpg
+ERR: 1054:Unknown column 'images' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=images ) LIMIT 1  
+
+[ 2018-04-11T20:03:39+08:00 ] 127.0.0.1 /Home/new_list/P
+ERR: 1054:Unknown column 'P' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=P ) LIMIT 1  
+
+[ 2018-04-11T20:03:39+08:00 ] 127.0.0.1 /Home/new_list/%EF%BF%BD
+ERR: 1054:Unknown column '�' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=� ) LIMIT 1  
+
+[ 2018-04-11T20:03:39+08:00 ] 127.0.0.1 /Home/new_list/-
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=- ) LIMIT 1  
+
+[ 2018-04-11T20:03:39+08:00 ] 127.0.0.1 /Home/new_list/&
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '&amp; ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=&amp; ) LIMIT 1  
+
+[ 2018-04-11T20:14:15+08:00 ] 127.0.0.1 /Home/new_list/images/01.jpg
+ERR: 1054:Unknown column 'images' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=images ) LIMIT 1  
+
+[ 2018-04-11T20:46:49+08:00 ] 127.0.0.1 /Home/new_list/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=index ) LIMIT 1  
+
+[ 2018-04-11T20:46:59+08:00 ] 127.0.0.1 /Home/new_list/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'index ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=index ) LIMIT 1  
+
+[ 2018-04-11T21:27:40+08:00 ] 127.0.0.1 /Home/new_list/newslistpic.html
+ERR: 1054:Unknown column 'newslistpic' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( id=newslistpic ) LIMIT 1  
+
+[ 2018-04-11T21:28:33+08:00 ] 127.0.0.1 /e/search/index.php
+ERR: 无法加载控制器:E
+
+[ 2018-04-11T21:29:58+08:00 ] 127.0.0.1 /Home/newslistpic.html
+ERR: 无法加载控制器:Newslistpic
+
+[ 2018-04-11T21:30:08+08:00 ] 127.0.0.1 /Home/newslistpic.html
+ERR: 无法加载控制器:Newslistpic
+
+[ 2018-04-11T21:33:05+08:00 ] 127.0.0.1 /Home/newslistpic.html
+ERR: 无法加载控制器:Newslistpic
+

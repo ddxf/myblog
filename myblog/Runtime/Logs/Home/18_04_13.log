@@ -1,0 +1,33 @@
+[ 2018-04-13T09:11:16+08:00 ] 127.0.0.1 /register
+ERR: 无法加载控制器:Register
+
+[ 2018-04-13T11:43:39+08:00 ] 127.0.0.1 /delregister
+ERR: 1062:Duplicate entry '新房' for key 'user_name'
+ [ SQL语句 ] : INSERT INTO `blog_user` (`username`,`password`,`deleted_at`,`updated_at`,`created_at`) VALUES ('新房','436bbf9a1514e335edad3055b1e16cbf','0','0','1523591019')
+
+[ 2018-04-13T16:04:51+08:00 ] 127.0.0.1 /delregister
+ERR: 1062:Duplicate entry '新房' for key 'user_name'
+ [ SQL语句 ] : INSERT INTO `blog_user` (`username`,`password`,`deleted_at`,`updated_at`,`created_at`) VALUES ('新房','436bbf9a1514e335edad3055b1e16cbf','0','0','1523606691')
+
+[ 2018-04-13T16:15:22+08:00 ] 127.0.0.1 /sidebar-left.html
+ERR: 无法加载控制器:Sidebar-left
+
+[ 2018-04-13T16:48:45+08:00 ] 127.0.0.1 /about.html
+ERR: 无法加载控制器:About
+
+[ 2018-04-13T16:58:02+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column '$path' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_type` WHERE ( $path=0 ) 
+
+[ 2018-04-13T17:28:49+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="vo";
+        <div class="col-sm-6 col-md-3"
+
+[ 2018-04-13T17:30:51+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="vo"
+        <div class="col-sm-6 col-md-3"
+
+[ 2018-04-13T17:31:03+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="typelist" item="vo"
+        <div class="col-sm-6 col-md-3"
+
